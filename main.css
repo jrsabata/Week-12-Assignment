@@ -1,0 +1,35 @@
+figure, figcaption {
+    margin: 0;
+    padding: 0;
+}
+figure {
+    border: 1px solid black;
+    width: 450px;
+    padding: 15px;
+}
+figcaption {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 120%;
+    padding-bottom: .25em;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: .2em, .7em;
+}
+body {
+    display: flex;
+    align-items: center;
+}
+#Team {
+    background-color: green;
+    color: white;
+}
+th, td {
+    border: 1px solid black;
+    padding: .2em, .7em;
+    text-align: left;
+}
